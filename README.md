@@ -2,22 +2,23 @@
 
 This repository contains my hands-on learning notebook for PySpark and Apache Spark.
 
-The notebook includes beginner-level practice, exercises, and experimentation with PySpark DataFrames and basic data processing operations.
+The notebook includes beginner-level practice, exercises, and experimentation with PySpark DataFrames and data processing operations while learning Spark fundamentals.
 
 ---
 
 ## Topics Covered
 
 - Creating Spark Sessions
-- Reading CSV files
+- Reading Parquet files
 - Exploring DataFrames
 - Viewing schemas
 - Selecting columns
 - Filtering rows
-- Adding new columns
+- Adding and transforming columns
 - GroupBy operations
 - Aggregations
 - Sorting data
+- Basic DataFrame transformations
 - Practice exercises
 
 ---
@@ -37,37 +38,77 @@ The notebook includes beginner-level practice, exercises, and experimentation wi
 pyspark-learning-notes/
 │
 ├── pyspark_learning.ipynb
-├── data/
 ├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
 ---
 
+## Dataset
+
+The original parquet files used in this notebook were large and are not included in this repository.
+
+To run the notebook locally, place your parquet files inside a `data/` folder:
+
+```text
+data/
+├── file1.parquet
+└── file2.parquet
+```
+
+Update the file paths inside the notebook if necessary.
+
+---
+
 ## Purpose
 
-I recently started learning PySpark and created this repository to document my progress and practice working with distributed data processing using Spark.
+I recently started learning PySpark and created this repository to document my learning journey and practice working with distributed data processing using Apache Spark.
+
+This repository serves as a collection of my notes, experiments, and beginner exercises while exploring PySpark concepts.
 
 ---
 
 ## How to Run
 
-1. Clone the repository:
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/pyspark-learning-notes.git
 ```
 
-2. Install dependencies:
+### 2. Navigate to the project folder
+
+```bash
+cd pyspark-learning-notes
+```
+
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Open the notebook:
+### 4. Open Jupyter Notebook
 
 ```bash
 jupyter notebook
+```
+
+Open:
+
+```text
+pyspark_learning.ipynb
+```
+
+---
+
+## Requirements
+
+```text
+pyspark
+jupyter
+pandas
 ```
 
 ---
@@ -79,4 +120,11 @@ jupyter notebook
 - Window Functions
 - Spark MLlib
 - ETL Pipelines
-- Real-world datasets
+- Working with larger datasets
+- Real-world Spark projects
+
+---
+
+## Author
+
+Saurav Nambiar
