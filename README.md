@@ -69,40 +69,6 @@ This repository serves as a collection of my notes, experiments, and beginner ex
 
 ---
 
-## How to Run
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/pyspark-learning-notes.git
-```
-
-### 2. Navigate to the project folder
-
-```bash
-cd pyspark-learning-notes
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Open Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-Open:
-
-```text
-pyspark_learning.ipynb
-```
-
----
-
 ## Requirements
 
 ```text
